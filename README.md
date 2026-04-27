@@ -35,6 +35,12 @@
 2. **小步提交**：一个 PR 只改一个技能或一个主题，便于 review。
 3. **描述清楚**：`SKILL.md` 中若修改了 PRD/原型约定，在 PR 说明里写清**适用场景**与**对既有文档的兼容性**（例如章节约束变更）。
 4. **发布同步**：合并进 `main` 后，各成员在本地对 `~/.cursor/skills/` 中对应技能执行覆盖复制或 `git pull` 后再次复制，避免长期漂移。
+5. **统一按规范协作**：提交前请阅读 [`CONTRIBUTING.md`](./CONTRIBUTING.md)，发 PR 时按 [PR 模板](./.github/PULL_REQUEST_TEMPLATE.md) 填写。
+
+### 新同学（尤其产品经理）快速入口
+
+- Git 协作与 Skill 使用快速上手：[`docs/PM-Git-CursorSkill-QuickStart.md`](./docs/PM-Git-CursorSkill-QuickStart.md)
+- 如果你不熟 Git，先按“快速上手”里的 8 条命令完成一次完整提交流程。
 
 ## 许可与敏感信息
 
@@ -45,3 +51,5 @@
 
 - 仓库： [lizy0226/cursor](https://github.com/lizy0226/cursor)
 - 上游产品技能若与 SenseCare 命名约定调整，以本仓库 `SKILL.md` 中 `name` 与正文章节为准。
+- Cursor 官网： [https://cursor.com](https://cursor.com)
+- Cursor 文档： [https://docs.cursor.com](https://docs.cursor.com)
